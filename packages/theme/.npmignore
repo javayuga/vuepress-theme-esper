@@ -1,0 +1,8 @@
+*.ts
+!*.d.ts
+
+# Test Files
+__tests__/
+
+# TypeScript Config files
+tsconfig.*

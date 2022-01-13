@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "ESNext",
+    "paths": {
+      "@theme/*": ["*"]
+    }
+  },
+  "include": ["./"],
+  "exclude": ["./node", "./__tests__", "./index.ts"]
+}
